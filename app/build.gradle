@@ -79,7 +79,7 @@ dependencies {
     implementation rootProject.ext.dependencies["material"]
     implementation rootProject.ext.dependencies["constraintlayout"]
     // 添加Framework依赖
-    // implementation project(path: ':framework')
+    implementation project(path: ':framework')
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
